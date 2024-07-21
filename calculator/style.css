@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.877);
+    padding:1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+.container .text{
+    width:100%;
+    margin-bottom:1rem;
+    text-align: right;
+    font-size: 50px;
+    font-weight: bolder;
+    padding:1rem;
+    color:white;
+}
+button{
+   height:60px;
+   width:60px;
+   margin:0.3rem ;
+   border:0;
+   border-radius: 5px;
+   color:white;
+   background-color: rgba(0, 0, 0, 0.651);
+   font-size:20px;
+   box-shadow: -10px -5px 10px rgba(12, 7, 7, 0.363);;
+ 
+}
+.equal{
+    width:132px;
+}
+.symbol{
+    color:rgba(255, 68, 0, 0.897)
+}
